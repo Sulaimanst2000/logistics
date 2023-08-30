@@ -36,7 +36,7 @@
                     </div>
                     <div class="col-md-6 col-12 p-0">
                         <div class="storage-container-img ">
-                            <img src="./assets/image/bus-container.png" alt="">
+                            <img src="./assets/image/illustration.svg" alt="">
                         </div>
                     </div>
                 </div>
