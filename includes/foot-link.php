@@ -5,6 +5,8 @@
     <!-- slick js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+      <!-- aos js -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- custom js -->
     <script src="./assets/js/custom.js"></script>
 </body>

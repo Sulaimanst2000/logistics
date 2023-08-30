@@ -1,7 +1,6 @@
-
 <?php include './includes/head-link.php'?>
     <!-- social link header -->
-    <div class="social-link-bg">
+    <div class="social-link-bg" data-aos="fade-in">
         <div class="container-fluid w-100">
             <div class="social-link d-flex justify-content-between align-items-center w-100 p-2">
                 <div class="icon">
@@ -17,7 +16,7 @@
     </div>
     <!-- social link header -->
     <!-- main section -->
-    <main class="main-bg">
+    <main class="main-bg" data-aos="fade-in">
         <!-- header -->
         <?php include './includes/header.php'?>
         <!-- header -->
@@ -48,7 +47,7 @@
     </main>
     <!-- main section -->
     <!-- carousel slider -->
-    <section class="carousel-slider">
+    <section class="carousel-slider" data-aos="fade-in">
         <div class="container">
             <div class="row logo-slide">
                 <div class="col-md-2 col-12">
@@ -90,7 +89,7 @@
         </div>
     </section>
     <!-- section container  -->
-    <section class="container-services pt-3">
+    <section class="container-services pt-3" data-aos="fade-in">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-12 p-0">
@@ -112,7 +111,7 @@
         </div>
     </section>
     <!-- section product -->
-    <section class="product-container mt-5">
+    <section class="product-container mt-5" data-aos="fade-in">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-12 mt-4">
@@ -163,7 +162,7 @@
         </div>
     </section>
     <!-- section storage need -->
-    <section class="right-need mt-5 ">
+    <section class="right-need mt-5 " data-aos="fade-in">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column p-0">
@@ -193,7 +192,7 @@
         </div>
     </section>
     <!-- work with us -->
-    <section class="work-us mt-5 mb-5">
+    <section class="work-us mt-5 mb-5" data-aos="fade-in">
         <div class="container ">
             <div class="work-container d-flex justify-content-between align-items-center w-100">
             <div class="row ">
@@ -219,7 +218,7 @@
         </div>
     </section>
     <!-- testimonials -->
-    <section class="testimonials">
+    <section class="testimonials" data-aos="fade-in">
         <div class="container">
             <div class="heading-test ">
                 <h4>TESTIMONIALS</h4>
@@ -305,7 +304,7 @@
         </div>
     </section>
     <!-- Blog Section -->
-    <section class="blog">
+    <section class="blog" data-aos="fade-in">
         <div class="container">
             <h2 class="blog-head">Blogs</h2>
             <div class="row">
@@ -338,4 +337,3 @@
     </section>
     <?php include './includes/footer.php'?>
     <?php include './includes/foot-link.php'?>
-

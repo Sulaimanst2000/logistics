@@ -10,6 +10,8 @@
     <!-- slick css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- style css -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Logistics</title><link rel="icon" type="image/x-icon" href="./assets/image/logo.png">

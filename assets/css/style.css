@@ -209,14 +209,17 @@ small {
     position: relative;
     border-radius: 5px;
 }
-.menuBar{
+
+.menuBar {
     width: 30px;
     display: none;
 }
-.closeBar{
+
+.closeBar {
     width: 30px;
     display: none;
 }
+
 /* Social Link Header */
 .social-link-bg {
     background-color: rgb(31, 82, 149);
@@ -909,6 +912,7 @@ hr {
     font-family: var(--font-poppins);
     font-size: 13px;
 }
+
 .email-box i {
     background-color: var(--white-color);
     display: flex;
@@ -1112,7 +1116,8 @@ hr {
         justify-content: space-between;
         align-items: center;
     }
-    .header-navigation{
+
+    .header-navigation {
         visibility: hidden;
         width: 100%;
         position: absolute;
@@ -1124,10 +1129,12 @@ hr {
         padding: 10px 0;
         height: 41vh;
     }
-    .header-navigation img{
+
+    .header-navigation img {
         position: absolute;
         right: 0;
     }
+
     .un-list-ul {
         display: flex;
         flex-direction: column;
@@ -1136,22 +1143,25 @@ hr {
         top: 50px;
         min-width: 0;
     }
-    
-    .un-list-ul  li{
+
+    .un-list-ul li {
         padding-bottom: 20px;
     }
-    .un-list-ul  li a{
+
+    .un-list-ul li a {
         color: var(--black-color) !important;
         font-size: 20px;
         font-weight: 500;
 
     }
+
     .buttons-header {
         /* width: 100%;
         flex-direction: column;
         align-items: center; */
         display: none !important;
     }
+
     .main-banner {
         padding: 0px 0px 30px;
     }
@@ -1299,38 +1309,166 @@ hr {
         width: 22px;
         height: 22px;
     }
-    .logo-footer{
+
+    .logo-footer {
         display: flex;
-    justify-content: center;
-    align-items: center;
+        justify-content: center;
+        align-items: center;
     }
+
     .icon i {
         padding: 3px 5px;
-    } 
+    }
+
     .img-work img {
         max-width: 167px;
     }
-    
+
     .work-container {
         height: 350px;
         padding: 34px 13px 38px 0px;
     }
+
     .heading-work::before {
         inset: -170px 0 0 195px;
     }
+
     .logo-img {
         max-width: 173px;
     }
-    .menuBar{
+
+    .menuBar {
         display: block;
     }
-    .heading-work h4{
+
+    .heading-work h4 {
         padding-left: 10px;
     }
-    .heading-work p{
+
+    .heading-work p {
         padding-left: 10px;
     }
-    .btn-contact{
+
+    .btn-contact {
         margin: 10px;
     }
 }
+
+
+.storage-container-img  {
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+  }
+  
+  @keyframes example {
+    0%   {
+         top:-200px;
+    }
+    /* 25%  {
+         top:-210px;
+    }
+    50%  {
+       top:-230px;
+    }
+    75%  {
+          top:-240px;
+        } */
+    100% {
+       top:0px;
+    }
+  }
+  .logo {
+    position: relative;
+    animation-name: logo;
+    animation-duration: 1s;
+  }
+  
+  @keyframes logo {
+    0%   {
+         top:-200px;
+    }
+    /* 25%  {
+         top:-210px;
+    }
+    50%  {
+       top:-230px;
+    }
+    75%  {
+          top:-240px;
+        } */
+    100% {
+       top:0px;
+    }
+  }
+
+  .only-container  {
+    position: relative;
+    animation-name: container;
+    animation-duration: 1s;
+  }
+  
+  @keyframes container {
+    0%   {
+         top:-200px;
+    }
+    /* 25%  {
+         top:-210px;
+    }
+    50%  {
+       top:-230px;
+    }
+    75%  {
+          top:-240px;
+        } */
+    100% {
+       top:0px;
+    }
+  }
+  .img-bus-hold  {
+    position: relative;
+    animation-name: bus;
+    animation-duration: 1s;
+  }
+  
+  @keyframes bus {
+    0%   {
+         top:-200px;
+    }
+    /* 25%  {
+         top:-210px;
+    }
+    50%  {
+       top:-230px;
+    }
+    75%  {
+          top:-240px;
+        } */
+    100% {
+       top:0px;
+    }
+  }
+  .img-work  {
+    position: relative;
+    animation-name: work;
+    animation-duration: 2s;
+  }
+  
+  @keyframes work {
+    0%   {
+         top:-200px;
+    }
+    /* 25%  {
+         top:-210px;
+    }
+    50%  {
+       top:-230px;
+    }
+    75%  {
+          top:-240px;
+        } */
+    100% {
+       top:0px;
+    }
+  }
+  

@@ -114,3 +114,10 @@ $( ".menuBar" ).click(function() {
     }
   
   });
+
+  // AOS Animation
+AOS.init({
+    offset: 0,
+    duration: 1500,
+    once: true,
+});
