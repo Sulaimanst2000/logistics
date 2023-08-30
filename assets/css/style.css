@@ -1344,6 +1344,7 @@ hr {
 
 
 
+
 /* animations */
 .storage-container-img {
     position: relative;
@@ -1517,3 +1518,5 @@ hr {
         transform: translateY(0);
     }
 }
+
+
