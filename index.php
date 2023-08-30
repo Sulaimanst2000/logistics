@@ -1,22 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-    <!-- slick css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-    <!-- style css -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Logistics</title><link rel="icon" type="image/x-icon" href="./assets/image/logo.png">
-</head>
-
-<body>
+<?php include './includes/head-link.php'?>
     <!-- social link header -->
     <div class="social-link-bg">
         <div class="container-fluid w-100">
@@ -36,38 +19,7 @@
     <!-- main section -->
     <main class="main-bg">
         <!-- header -->
-        <header>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="header-nav-bar d-lg-flex w-100 justify-content-md-center align-items-md-center">
-                        <div class="logo w-50">
-                            <img src="./assets/image/logo.png" alt="logo" class="pt-2">
-                        </div>
-                        <div class="header-navigation d-flex ">
-                            <ul class="d-lg-flex  justify-md-content-between align-items-md-center p-0 m-0 un-list-ul">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#" class="pe-md-5">Contact</a></li>
-                            </ul>
-                            <img src="./assets/image/close.png" class="closeBar" alt="image">
-                        </div>
-                            <div class="buttons-header d-flex justify-content-between ">
-                                <div class="login ">
-                                    <button onclick="" class="login-btn">LOGIN</button>
-                                </div>
-                                <div class="started ">
-                                    <button onclick="" class="get-started-btn">GET STARTED</button>
-                                </div>
-                            </div>
-                            <div class="toggle-icon">
-                                <img src="./assets/image/menu.png" class="menuBar" alt="image">
-                                
-                            </div>
-                    </div>
-                </div>
-        </header>
+        <?php include './includes/header.php'?>
         <!-- header -->
         <!-- section container bus-->
         <section class="main-banner">
@@ -384,76 +336,6 @@
             </div>
         </div>
     </section>
-    <!-- footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-12">
-                    <div class="social-footer">
-                        <div class="logo logo-footer">
-                            <img src="./assets/image/logo.png" alt="">
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took.
-                        </p>
-                    </div>
-                    <div class="social-icons-foot">
-                        <div class="icon-foot">
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-12">
-                    <div class="quick-links">
-                        <h3>Quick links</h3>
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About Us </a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-12">
-                    <div class="quick-links">
-                        <h3>Our Services</h3>
-                        <ul>
-                            <li><a href="">LTL Freight </a></li>
-                            <li><a href="">Shared Truckload </a></li>
-                            <li><a href="">Full Truckload</a></li>
-                            <li><a href="">View More</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-12">
-                    <div class="quick-links">
-                        <h3>Newsletter</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <form class="email-box d-flex"><input type="email" placeholder="Enter your email"
-                                id="email-input"><i class="fa-solid fa-paper-plane"></i></form>
-                    </div>
-                </div>
-            </div>
-            <hr>
-        </div>
-        <div class="footer-end-line">
-            <p class="text-white p-0 m-0">© 2022 <strong class="text-white p-0 m-0">Storage Container Solution
-                    inc</strong> All Rights Reserved.</p>
-        </div>
-    </footer>
+    <?php include './includes/footer.php'?>
+    <?php include './includes/foot-link.php'?>
 
-
-    <!-- jquery cdn -->
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-    <!-- bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- slick js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
-    <!-- custom js -->
-    <script src="./assets/js/custom.js"></script>
-</body>
-
-</html>

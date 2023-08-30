@@ -909,13 +909,13 @@ hr {
     font-family: var(--font-poppins);
     font-size: 13px;
 }
-
 .email-box i {
     background-color: var(--white-color);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
+    cursor: pointer;
 }
 
 .footer hr {

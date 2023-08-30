@@ -114,5 +114,3 @@ $( ".menuBar" ).click(function() {
     }
   
   });
-  
-   
