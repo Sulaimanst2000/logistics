@@ -300,7 +300,8 @@ small {
 }
 
 .buttons-header {
-    width: 17%;
+    width: 100%;
+    max-width: 225px;
 }
 
 .main-banner {
