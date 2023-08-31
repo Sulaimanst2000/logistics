@@ -1101,6 +1101,23 @@ hr {
 
 }
 
+@media only screen and (min-width:768px) and (max-width: 885px){
+    .header-nav-bar{
+        display: flex;
+    }
+    .un-list-ul{
+        display: flex;
+    }
+    .buttons-header {
+        width: 60%;
+    }
+    .container-services::after {
+        top: 150px;
+    }
+    .container-services::before {
+        top: 163px;
+    }
+}
 @media only screen and (max-width: 767px) {
     .header-nav-bar {
         display: flex;
@@ -1234,14 +1251,14 @@ hr {
     .container-services::before {
         width: 26.5%;
         height: 15%;
-        top: 172px;
+        top: 211px;
         left: 1px;
     }
 
     .container-services::after {
         width: 20%;
         height: 3%;
-        top: 164px;
+        top: 203px;
         left: 0;
     }
 
