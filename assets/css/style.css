@@ -1234,15 +1234,15 @@ hr {
     .container-services::before {
         width: 26.5%;
         height: 15%;
-        top: 159px;
+        top: 172px;
         left: 1px;
     }
 
     .container-services::after {
         width: 20%;
         height: 3%;
-        top: 140px;
-        left: 8px;
+        top: 164px;
+        left: 0;
     }
 
     .container-services {
