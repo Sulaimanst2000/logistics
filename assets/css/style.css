@@ -604,8 +604,6 @@ small {
     scale: 0;
 }
 
-
-
 .btn-contact:hover {
     color: var(--black-color);
     opacity: 1;
@@ -613,8 +611,6 @@ small {
     height: 40px;
     width: 128px;
 }
-
-
 
 .btn-contact:active {
     scale: 1;
