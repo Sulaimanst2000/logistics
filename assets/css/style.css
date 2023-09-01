@@ -1252,14 +1252,14 @@ hr {
     .container-services::before {
         width: 26.5%;
         height: 15%;
-        top: 211px;
+        top: 216px;
         left: 1px;
     }
 
     .container-services::after {
         width: 20%;
         height: 3%;
-        top: 203px;
+        top: 208px;
         left: 0;
     }
 
