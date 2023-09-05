@@ -3,7 +3,7 @@
                 <div class="row">
                     <div class="header-nav-bar d-lg-flex w-100 justify-content-md-center align-items-md-center">
                         <div class="logo w-50">
-                            <img src="./assets/image/logo.png" alt="logo" class="pt-2">
+                            <a href="index.php"><img src="./assets/image/logo.png" alt="logo" class="pt-2"></a>
                         </div>
                         <div class="header-navigation d-flex ">
                             <ul class="d-lg-flex  justify-md-content-between align-items-md-center p-0 m-0 un-list-ul">
