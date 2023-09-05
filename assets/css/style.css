@@ -1196,17 +1196,6 @@ hr {
     position: relative;
 }
 
-/* .right-container-heading-services::before {
-    content: "";
-    position: absolute;
-    background: url("../image/4dots.svg") center center / contain no-repeat;
-    height: 100%;
-    width: 4%;
-    object-fit: contain;
-    left: 55px;
-    top: -51px;
-} */
-
 .right-container-heading-services {
     padding-left: 125px;
 }
@@ -1624,7 +1613,7 @@ hr {
         top: 193px;
         height: 44%;
         left: 38px;
-        width: 4%;
+        width: 5%;
     }
 
     .about-heading {
@@ -1752,7 +1741,16 @@ hr {
     .about-img-work:before {
         top: 35px;
     }
-
+    .contact-heading{
+        padding: 70px;
+    }
+    .about-heading h2 {
+        font-size: 24px;
+    }
+    .about-section-content::before {
+        width: 9%;
+        height: 1%;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -2138,6 +2136,7 @@ hr {
 
 
 /* animations */
+
 .storage-container-img {
     position: relative;
     animation-name: example;
@@ -2154,7 +2153,9 @@ hr {
     }
 }
 
+.contact-heading::before,
 .only-container::before,
+.about-section::before,
 .container-services-para-head::before,
 .product-container::after,
 .only-container::before,
@@ -2237,8 +2238,9 @@ hr {
 
 
 
-
+.only-bus,
 .img-work,
+.only-bus-services,
 .img-bus-hold {
     position: relative;
     animation-name: work;
