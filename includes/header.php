@@ -7,11 +7,11 @@
                         </div>
                         <div class="header-navigation d-flex ">
                             <ul class="d-lg-flex  justify-md-content-between align-items-md-center p-0 m-0 un-list-ul">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="about.php">About</a></li>
                                 <li><a href="#">Shop</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#" class="pe-md-5">Contact</a></li>
+                                <li><a href="services.php">Services</a></li>
+                                <li><a href="./contact.php" class="pe-md-5">Contact</a></li>
                             </ul>
                             <img src="./assets/image/close.png" class="closeBar" alt="image">
                         </div>
