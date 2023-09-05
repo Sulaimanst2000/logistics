@@ -10,7 +10,7 @@
                                 <li><a href="index.php">Home</a></li>
                                 <li><a href="about.php">About</a></li>
                                 <li><a href="#">Shop</a></li>
-                                <li><a href="services.php">Services</a></li>
+                                <li><a href="serviceDetails.php">Services</a></li>
                                 <li><a href="./contact.php" class="pe-md-5">Contact</a></li>
                             </ul>
                             <img src="./assets/image/close.png" class="closeBar" alt="image">
